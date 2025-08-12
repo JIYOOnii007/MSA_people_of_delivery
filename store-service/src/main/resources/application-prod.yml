@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+# 운영에서 Eureka가 필요 없으면 기본(false) 유지.
+# 필요 시 환경변수로만 활성화하세요.
+# eureka:
+#   client:
+#     register-with-eureka: ${EUREKA_CLIENT_REGISTER}
+#     fetch-registry: ${EUREKA_CLIENT_FETCH}
+#     serviceUrl:
+#       defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE}
